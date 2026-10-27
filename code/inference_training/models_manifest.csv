@@ -1,0 +1,26 @@
+model_id,backbone,head,prep,model_file,folder_aptos,folder_idrid,folder_messidor,ext_aptos,ext_idrid,ext_messidor,note
+R50-P-RAW,resnet50,softmax,RAW,V2/Model/resnet50_p_softmax.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,
+D121-P-RAW,densenet121,sigmoid,RAW,V2/Model/densenet121_p_sigmoid.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,sudah ada prediksi (GradCAM.ipynb)
+EB0-P-RAW,efficientnetb0,sigmoid,RAW,V2/Model/efficientnetb0_p_sigmoid.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,sudah ada prediksi (GradCAM.ipynb)
+VIT-P-RAW,vit,softmax,RAW,V2/Model/vitbase_p_softmax.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,
+R50-P-1A,resnet50,softmax,1A,V2/Model/(1)resnet50_p_softmax.keras,Preprocessed image/Circular Crop/1a/APTOS,Preprocessed image/Circular Crop/1a/IDRID,Preprocessed image/Circular Crop/1a/MESSIDOR,.png,.png,.png,
+R50-P-2A,resnet50,softmax,2A,V2/Model/(2a)resnet50_p_softmax.keras,Preprocessed image/2a/APTOS,Preprocessed image/2a/IDRID,Preprocessed image/2a/MESSIDOR,.png,.png,.png,cek folder 2a/APTOS ada
+R50-P-3A,resnet50,softmax,3A,V2/Model/(3a)resnet50_p_softmax.keras,Preprocessed image/3a/APTOS,Preprocessed image/3a/IDRID,Preprocessed image/3a/MESSIDOR,.png,.png,.png,
+R50-P-4A,resnet50,softmax,4A,V2/Model/(3)resnet50_p_softmax.keras,Preprocessed image/Circular Crop/4a/APTOS,Preprocessed image/Circular Crop/4a/IDRID,Preprocessed image/Circular Crop/4a/MESSIDOR,.png,.png,.png,
+R50-P-5A,resnet50,softmax,5A,V2/Model/(5a)resnet50_p_softmax.keras,Preprocessed image/Circular Crop/5a/APTOS,Preprocessed image/Circular Crop/5a/IDRID,Preprocessed image/Circular Crop/5a/MESSIDOR,.png,.png,.png,
+R50-P-6A,resnet50,softmax,6A,V2/Model/(6a)resnet50_p_softmax.keras,Preprocessed image/Circular Crop/6a/APTOS,Preprocessed image/Circular Crop/6a/IDRID,Preprocessed image/Circular Crop/6a/MESSIDOR,.png,.png,.png,
+R50-P-1B,resnet50,softmax,1B,V2/Model/(4)resnet50_p_softmax.keras,Preprocessed image/Box Crop/1b/APTOS,Preprocessed image/Box Crop/1b/IDRID,Preprocessed image/Box Crop/1b/MESSIDOR,.png,.png,.png,
+R50-P-4B,resnet50,softmax,4B,V2/Model/(4b)resnet50_p_softmax.keras,Preprocessed image/Box Crop/4b/APTOS,Preprocessed image/Box Crop/4b/IDRID,Preprocessed image/Box Crop/4b/MESSIDOR,.png,.png,.png,
+R50-P-5B,resnet50,softmax,5B,V2/Model/(5b)resnet50_p_softmax.keras,Preprocessed image/Box Crop/5b/APTOS,Preprocessed image/Box Crop/5b/IDRID,Preprocessed image/Box Crop/5b/MESSIDOR,.png,.png,.png,
+R50-P-6B,resnet50,softmax,6B,V2/Model/(6b)resnet50_p_softmax.keras,Preprocessed image/Box Crop/6b/APTOS,Preprocessed image/Box Crop/6b/IDRID,Preprocessed image/Box Crop/6b/MESSIDOR,.png,.png,.png,
+D121-P-1A,densenet121,sigmoid,1A,V2/Model/densenet121_p_sigmoid_skenario1.keras,Preprocessed image/Circular Crop/1a/APTOS,Preprocessed image/Circular Crop/1a/IDRID,Preprocessed image/Circular Crop/1a/MESSIDOR,.png,.png,.png,skenario 1 = 1A (asumsi logbook)
+D121-P-4A,densenet121,sigmoid,4A,V2/Model/densenet121_p_sigmoid_skenario3.keras,Preprocessed image/Circular Crop/4a/APTOS,Preprocessed image/Circular Crop/4a/IDRID,Preprocessed image/Circular Crop/4a/MESSIDOR,.png,.png,.png,skenario 3 = 4A (asumsi logbook)
+EB0-P-1A,efficientnetb0,sigmoid,1A,V2/Model/efficientnetb0_p_sigmoid_skenario1.keras,Preprocessed image/Circular Crop/1a/APTOS,Preprocessed image/Circular Crop/1a/IDRID,Preprocessed image/Circular Crop/1a/MESSIDOR,.png,.png,.png,
+EB0-P-4A,efficientnetb0,sigmoid,4A,V2/Model/efficientnetb0_p_sigmoid_skenario3.keras,Preprocessed image/Circular Crop/4a/APTOS,Preprocessed image/Circular Crop/4a/IDRID,Preprocessed image/Circular Crop/4a/MESSIDOR,.png,.png,.png,
+VIT-P-1A,vit,softmax,1A,V2/Model/(1)vitbase_p_softmax.keras,Preprocessed image/Circular Crop/1a/APTOS,Preprocessed image/Circular Crop/1a/IDRID,Preprocessed image/Circular Crop/1a/MESSIDOR,.png,.png,.png,
+VIT-P-4A,vit,softmax,4A,V2/Model/(3)vitbase_p_softmax.keras,Preprocessed image/Circular Crop/4a/APTOS,Preprocessed image/Circular Crop/4a/IDRID,Preprocessed image/Circular Crop/4a/MESSIDOR,.png,.png,.png,
+R50-NP-RAW,resnet50,softmax,RAW,V2/Model/resnet50_np_softmax.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,
+D121-NP-RAW,densenet121,sigmoid,RAW,V2/Model/densenet121_np_sigmoid.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,sudah ada prediksi (GradCAM.ipynb)
+EB0-NP-RAW,efficientnetb0,sigmoid,RAW,V2/Model/efficientnetb0_np_sigmoid.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,sudah ada prediksi (GradCAM.ipynb)
+VIT-NP-RAW,vit,softmax,RAW,V2/Model/vitbase_np_softmax.keras,aptos_dataset/train_full,idrid_dataset/train_full,messidor_dataset/train_full,.png,.jpg,,
+R50-P-5A-AUG,resnet50,softmax,5A,V2/Model/(5a_aug)resnet50_p_softmax.keras,Preprocessed image/Circular Crop/5a/APTOS,Preprocessed image/Circular Crop/5a/IDRID,Preprocessed image/Circular Crop/5a/MESSIDOR,.png,.png,.png,dibuat oleh train_r50_5a_aug.py

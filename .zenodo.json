@@ -1,0 +1,16 @@
+{
+  "title": "Code and per-image predictions for \"Evaluating Cross-Dataset Generalization of Deep Learning Models for Diabetic Retinopathy Detection Using Retinal Fundus Images\"",
+  "upload_type": "software",
+  "description": "Code, per-image predicted probabilities, and result tables for a cross-dataset evaluation of four deep learning backbones (ResNet50, DenseNet121, EfficientNet-B0, ViT-B/16) for diabetic retinopathy detection, trained on APTOS 2019 and evaluated on IDRiD and Messidor. The record contains predictions of 26 trained models, scripts that attach the official dataset labels and recompute every table and figure of the article, and the preprocessing and training code. Dataset images and labels are not redistributed and must be obtained from their official sources.",
+  "creators": [
+    {"name": "Kurniawan, Isman", "affiliation": "School of Computing, Telkom University"},
+    {"name": "Avi, Prazna Paramitha", "affiliation": "School of Computing, Telkom University"},
+    {"name": "Khoerunnisa, Ghina", "affiliation": "School of Computing, Telkom University"},
+    {"name": "Setiawan, Harry", "affiliation": "Communications Science Department, Universitas Islam Riau"},
+    {"name": "Md Noar, Nor Aida Zuraimi", "affiliation": "Centre for Mathematical Sciences, Universiti Malaysia Pahang Al-Sultan Abdullah"},
+    {"name": "Muthuvalu, Mohana Sundaram", "affiliation": "Department of Fundamental and Applied Sciences, Universiti Teknologi PETRONAS"}
+  ],
+  "keywords": ["diabetic retinopathy", "domain shift", "cross-dataset generalization", "fundus photography", "deep learning", "calibration"],
+  "license": "MIT",
+  "notes": "Predictions and result tables are released under CC BY 4.0 (see LICENSE-DATA). Funded by the Joint Research Project (Universiti Teknologi PETRONAS, Universiti Malaysia Pahang Al-Sultan Abdullah, Universitas Islam Riau, Telkom University), Grant No. 438/PNLT3/PPM/2022."
+}

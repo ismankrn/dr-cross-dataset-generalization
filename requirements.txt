@@ -1,0 +1,12 @@
+# analysis (merge_labels, reproduce_results, make_tables, make_figures)
+numpy
+pandas
+scikit-learn
+matplotlib
+xlrd        # Messidor .xls annotation files
+openpyxl
+# inference and training (code/inference_training)
+tensorflow==2.20.*
+keras-hub
+opencv-python-headless
+pillow
