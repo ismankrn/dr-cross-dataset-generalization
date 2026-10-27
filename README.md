@@ -1,5 +1,7 @@
 # Cross-dataset generalization of deep learning models for diabetic retinopathy detection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23681312.svg)](https://doi.org/10.5281/zenodo.23681312)
+
 Code, per-image predictions, and result tables for the article
 *"Evaluating Cross-Dataset Generalization of Deep Learning Models for Diabetic Retinopathy Detection Using Retinal Fundus Images"*
 by Isman Kurniawan, Prazna Paramitha Avi, Ghina Khoerunnisa, Harry Setiawan, Nor Aida Zuraimi Md Noar, and Mohana Sundaram Muthuvalu.
@@ -60,6 +62,17 @@ The trained Keras models (about 6 GB) are not included and are available from th
 
 Code is released under the MIT License (`LICENSE`). Predictions and result tables are released under CC BY 4.0 (`LICENSE-DATA`).
 The datasets themselves remain under the licenses of their providers.
+
+## How to cite
+
+If you use this code or the predictions, please cite the archived release:
+
+> Kurniawan, I., Avi, P. P., Khoerunnisa, G., Setiawan, H., Md Noar, N. A. Z., & Muthuvalu, M. S. (2026).
+> Code and per-image predictions for "Evaluating Cross-Dataset Generalization of Deep Learning Models for Diabetic
+> Retinopathy Detection Using Retinal Fundus Images" (Version v1.0). Zenodo. https://doi.org/10.5281/zenodo.23681313
+
+The DOI 10.5281/zenodo.23681313 refers to version v1.0, which corresponds to the article. The concept DOI
+10.5281/zenodo.23681312 always resolves to the latest version.
 
 ## Contact
 
